@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins";
+    background-color: #b8ddff;
+    background-image: url(just-waves.webp);
+    background-position: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    /* width: 30%;
+    height: 40%; */
+    padding: 5rem 10rem;
+    background-color: white;
+    /* border: 3px solid #2688E3; */
+    background-color: #ffffff;
+    box-shadow: 0 0 24px 2px rgb(209, 209, 209);
+}
+.login-card > h1{
+    text-align: center;
+}
+.login-form{
+    margin-top: 3rem;
+    text-align: center;
+}
+input{
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 9px 12px ;
+    width: 420px;
+
+}
+
+.record-management{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.record-management > button{
+    padding: 10px;
+    margin: 15px 0;
+    background: none;
+    cursor: pointer;
+    /* color: white; */
+    background-color: #b3e2f7;
+    border: none;
+    box-shadow: 0 0 10px 3px rgb(217, 237, 247);
+    transition: background-color 0.05s linear;
+    /* border-bottom: 1px solid black; */
+}
+.record-management > button:hover{
+    background-color: #86d4f9;
+    box-shadow: 0 0 12px 5px rgb(217, 237, 247);
+    
+    
+}
+
+i{
+    /* background-color: #93d6f3; */
+    text-align: center;
+    /* padding: 12px; */
+    /* color:    white; */
+    margin-right: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #0faef3;
+}
+
+
+.submit-button{
+    font-size: 15px;
+    width: 480px;
+    margin-top: 3rem;
+    padding: 10px 0;
+    background: #b3e2f7;
+
+    box-shadow: 0 0 10px 2px rgb(217, 228, 235);
+    border: none;
+
+    cursor: pointer;
+    transition:scale 0.2s ease-out
+
+}
+.submit-button:hover{
+    scale: 1.05;
+}
+
+.servlet-input{
+    text-align: center;
+}
+
+.servlet-submit{
+    margin-top: 2rem;
+    font-size: 15px;
+    width: 150px;
+    margin-top: 3rem;
+    padding: 10px 0;
+    background: #b3e2f7;
+
+    box-shadow: 0 0 10px 2px rgb(217, 228, 235);
+    border: none;
+
+    cursor: pointer;
+    transition:scale 0.2s ease-out
+}
